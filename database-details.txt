@@ -1,0 +1,5 @@
+
+create table user (id int, active varchar(1),user_name varchar(25), password varchar(25), roles varchar(25));
+
+insert into user values( 1, 'Y', 'user', 'pass', 'ROLE_USER');
+insert into user values( 2, 'Y', 'admin', 'pass', 'ROLE_ADMIN,ROLE_USER');
